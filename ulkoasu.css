@@ -1,0 +1,178 @@
+body {
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 75%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    color: black;
+    min-height: 20px;
+}
+
+#oikea img{
+    border-radius: 50%;
+    height: 80px;
+    position:relative; bottom: 90px; left: 220px;
+}
+
+header a{
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 15px;
+}
+
+header li{
+    display: inline;
+}
+
+header nav{
+    float: initial;
+}
+
+#paaotsikko{
+    height: 120px;
+    background-color: #A19191;
+    font-size: 13px;
+    color: #c43f78;
+    border-bottom: solid #c43f78;
+    border-top: solid #c43f78;
+    overflow: hidden;
+}
+
+#paaotsikko h1{
+padding-left: 100px;
+margin-left: 7rem;
+}
+
+h2{
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+h3{
+    font-size: 15px;
+}
+
+.etusivua{
+    margin: auto;
+    padding: 1rem 9rem;
+}
+
+.etusivua a{
+    color: #c43f78;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.esimakua{
+    display: inline-block;
+    padding: 1rem 1rem;
+}
+
+#Blogi{
+    background-color: #d9d3d3;
+    padding: 1rem 2rem;
+    padding-right: 20rem;
+    text-align: center;
+}
+
+#Blogi a{
+    color: #c43f78;
+    text-decoration: none;
+    font-size: 14px; 
+}
+
+#Blogi h2{
+    color: #c43f78;
+}
+
+footer{
+    background-color: #A19191;
+    border-top: solid #c43f78;
+}
+
+footer p{
+    margin-left: 15px;
+    display: inline;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+#tyo dt{
+    font-weight: bolder;
+}
+#tyo {
+    line-height: 50px;
+}
+
+#koulut{
+    line-height: 30px;
+}
+
+#koulut h2{
+    color: #c43f78;
+}
+
+#koulut dt{
+    font-weight: bolder;
+
+}
+
+.lasku{
+    border-radius: 50%;
+    height: 200px;
+    float: right;
+    margin: 0.5em 0 0.5em 0.5em;
+}
+
+.tulevaisuus{
+text-align: justify;
+width: 75%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.aurinko{
+    border-radius: 50%;
+    height: 200px;
+    float: left;
+    margin: 0.5em 0 0.5em 0.5em; 
+}
+
+.nyt{
+    text-align: justify;
+    width: 75%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.message input, .message textarea{
+width: 75%;
+}
+
+.message button{
+color: #c43f78;
+border: #c43f78 solid;
+margin-bottom: 40px;
+}
+
